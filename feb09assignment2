@@ -1,0 +1,10 @@
+input:
+#program for the given number is prime/odd
+a=int(input('enter a value:'))
+if(a%2==0):
+    print('a is even')
+else:
+    print('a is odd')
+    output:
+    enter a value:12
+a is even
