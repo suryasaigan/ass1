@@ -1,0 +1,64 @@
+input:
+sno=int(input('enter sno:'))
+sname=input('enter sname:')
+sgroup=input('enter sgroup:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter ele marks:'))
+s3=int(input('enter cs marks:'))
+s4=int(input('enter telugu marks:'))
+s5=int(input('enter english marks:'))
+s6=int(input('enter online bussiness marks:'))
+s7=int(input('enter analytical skills marks:'))
+s8=int(input('enter ee marks:'))
+if s1>=28:
+    print('pass')
+else:
+    print('fail')
+if s2>=28:
+    print('pass')
+else:
+    print('fail')
+if s3>=28:
+    print('pass')
+else:
+    print('fail')
+if s4>=28:
+    print('pass')
+else:
+    print('fail')
+if s5>=28:
+    print('pass')
+else:
+    print('fail')
+if s6>=28:
+    print('pass')
+else:
+    print('fail')
+if s7>=28:
+    print('pass')
+else:
+    print('fail')
+if s8>=28:
+    print('pass')
+else:
+    print('fail')
+    output:
+  enter sno:12
+enter sname:ganesh
+enter sgroup:mecs
+enter maths marks:45
+enter ele marks:27
+enter cs marks:38
+enter telugu marks:35
+enter english marks:40
+enter online bussiness marks:25
+enter analytical skills marks:28
+enter ee marks:0
+pass
+fail
+pass
+pass
+pass
+fail
+pass
+fail 
