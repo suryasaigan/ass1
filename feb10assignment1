@@ -1,0 +1,26 @@
+input:
+sno=int(input('enter sno:'))
+sname=input('enter sname:')
+sgroup=input('enter sgroup:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter ele marks:'))
+s3=int(input('enter cs marks:'))
+s4=int(input('enter telugu marks:'))
+s5=int(input('enter english marks:'))
+s6=int(input('enter online bussiness marks:'))
+if s1>=28 and s2>=28 and s3>=28 and s4>=28 and s5>=28  and s6>=28:
+    print('pass')
+else:
+    print('fail')
+ 
+ output:
+ enter sno:12
+enter sname:ganesh
+enter sgroup:mecs
+enter maths marks:45
+enter ele marks:38
+enter cs marks:39
+enter telugu marks:41
+enter english marks:33
+enter online bussiness marks:28
+pass
