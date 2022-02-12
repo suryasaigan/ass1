@@ -1,0 +1,24 @@
+input:
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
+if a==b:
+    print('equal')
+elif a!=b:
+    print('not equal')
+if a>b:
+    print('a is greater than b')
+elif b>a:
+    print('b is greater than a')
+if a<b:
+    print('a is smaller than b')
+elif b<a:
+    print('b is smaller than a')
+    
+    
+    output:
+ enter a value:9441229907   
+ enter b value:9391194388
+not equal
+a is greater than b
+b is smaller than a
+ 
