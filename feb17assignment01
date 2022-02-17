@@ -1,0 +1,25 @@
+program to print sum of even numbers
+input:
+n=int(input('enter n value:'))
+sum=0
+for i in range(1,n+1):
+    if i%2==0:
+        sum=sum+i
+print(sum)
+
+output:
+enter n value:10
+30
+
+program to print sum of odd numbers
+input:
+n=int(input('enter n value:'))
+sum=0
+for i in range(1,n+1):
+    if i%2==1:
+        sum=sum+i
+print(sum)
+
+output:
+enter n value:10
+25
