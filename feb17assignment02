@@ -1,0 +1,15 @@
+input:
+n= int(input("Please Enter the n value = "))
+a = 0
+b = 1
+Sum = 0
+for i in range(0,n):
+    Sum = Sum + a
+    c = a + b
+    a = b
+    b = c
+print("The Sum of Fibonacci Series Numbers is",Sum)
+
+output:
+Please Enter the n value = 12
+The Sum of Fibonacci Series Numbers is 232
