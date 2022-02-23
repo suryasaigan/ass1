@@ -1,0 +1,16 @@
+l=[]
+n=int(input('enter number:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+    
+max=l[0]
+for i in range(1,n):
+    if l[i]>max:
+        l[i]=max
+print(max)
+min=l[0]
+for j in range(1,n):
+    if l[j]<min:
+        l[j]=min
+print(min)
