@@ -1,0 +1,30 @@
+#program to add two matrices
+A=[]
+m=int(input('enter no.of rows:'))
+n=int(input('enter no.of columns:'))
+for i in range(m):
+    row=[]
+    for j in range(n):
+        k=int(input())
+        row.append(k)
+    A.append(row)
+print(A)
+B=[]
+m=int(input('enter no.of rows:'))
+n=int(input('enter no.of columns:'))
+for i in range(m):
+    row=[]
+    for i in range(n):
+        k=int(input())
+        row.append(k)
+    B.append(row)
+print(B)
+result=[[0,0],[0,0],[0,0]]
+for i in range(m):
+    for j in range(n):
+        result[i][j]=A[i][j]*B[i][j]
+print('result matrix is:')
+for i in range(m):
+    for j in range(n):
+        print(result[i][j])
+print(result)
